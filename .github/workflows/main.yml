@@ -17,3 +17,8 @@ jobs:
       env:
         GITHUB_TOKEN: 20ea1822f6c77392ecd55299a714abacf7b33f71
         SONAR_TOKEN: 09d6f3a268043b53f228df17accf8d72ab627ffe
+      with:
+        projectBaseDir: ./
+        args: >
+         -Dsonar.login=“admin” 
+         -Dsonar.login=“admin”
